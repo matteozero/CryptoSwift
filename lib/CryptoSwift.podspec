@@ -21,14 +21,15 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '10.0'
   s.requires_arc          = true
-  s.static_framework = true
   s.swift_versions = ['5.2']
 
 
+  s.source_files = 'lib/**/*.h'
+  s.vendored_libraries = 'lib/*.a'
+  s.preserve_paths = 'lib/*.a', 'lib/**/*.h', 'lib/**/*.modulemap'
 
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
 
-  s.source_files = 'CryptoSwift/Classes/**/*'
 
   # s.resource_bundles = {
   #   'CryptoSwift' => ['CryptoSwift/Assets/*.xcassets']
