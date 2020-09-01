@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CryptoSwift'
-  s.version          = '1.3.3'
+  s.version          = '0.7.0'
   s.summary          = 'A short description of CryptoSwift.'
   s.description      = <<-DESC
   TODO: Add long description of the pod here.
