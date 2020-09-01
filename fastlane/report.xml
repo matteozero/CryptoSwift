@@ -5,67 +5,67 @@
     
     
       
-      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000354">
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.00037">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="01: import_from_git" time="2.16707">
+      <testcase classname="fastlane.lanes" name="01: import_from_git" time="4.338081">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="02: default_platform" time="0.000253">
+      <testcase classname="fastlane.lanes" name="02: default_platform" time="0.000254">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="03: Switch to ios yk_component_release_src lane" time="0.000285">
+      <testcase classname="fastlane.lanes" name="03: Switch to ios yk_component_release_src lane" time="0.000191">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="04: git_pull" time="2.701881">
+      <testcase classname="fastlane.lanes" name="04: git_pull" time="3.872842">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="05: version_bump_podspec" time="0.000976">
+      <testcase classname="fastlane.lanes" name="05: version_bump_podspec" time="0.000874">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="06: yk_pod_install" time="3.698251">
+      <testcase classname="fastlane.lanes" name="06: yk_pod_install" time="4.342326">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="07: yk_pod_lib_lint" time="31.174209">
+      <testcase classname="fastlane.lanes" name="07: yk_pod_lib_lint" time="32.365987">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="08: yk_git_commit_all" time="0.060683">
+      <testcase classname="fastlane.lanes" name="08: yk_git_commit_all" time="0.063679">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.011834">
+      <testcase classname="fastlane.lanes" name="09: add_git_tag" time="0.012117">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="10: push_to_git_remote" time="4.496975">
+      <testcase classname="fastlane.lanes" name="10: push_to_git_remote" time="4.623168">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="11: yk_pod_push" time="42.132051">
+      <testcase classname="fastlane.lanes" name="11: yk_pod_push" time="57.61803">
         
       </testcase>
     
       
-      <testcase classname="fastlane.lanes" name="12: yk_pod_repo_update" time="2.385075">
+      <testcase classname="fastlane.lanes" name="12: yk_pod_repo_update" time="2.525239">
         
       </testcase>
     

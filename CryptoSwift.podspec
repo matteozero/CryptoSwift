@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CryptoSwift'
-  s.version          = '1.3.5'
+  s.version          = '1.3.6'
   s.summary          = 'A short description of CryptoSwift.'
   s.description      = <<-DESC
   TODO: Add long description of the pod here.
@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/matteozero/CryptoSwift.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '10.0'
-#  s.requires_arc          = true
-  s.static_framework = true
+  s.requires_arc          = true
+  s.static_framework = false
   s.swift_versions = ['5.2']
 
 

@@ -1,5 +1,5 @@
 PODS:
-  - CryptoSwift (1.3.5)
+  - CryptoSwift (1.3.6)
 
 DEPENDENCIES:
   - CryptoSwift (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CryptoSwift: 24d60edc239e478bc7257596d5c6c2d0ded68984
+  CryptoSwift: a6fb0428e72e0a87dbe389dbeee875c7d1ca0c8f
 
 PODFILE CHECKSUM: 6ee335645d9672dd0bf432ba46c34582834b96eb
 
