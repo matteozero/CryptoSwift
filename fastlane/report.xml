@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="fastlane.lanes">
+    
+    
+    
+      
+      <testcase classname="fastlane.lanes" name="00: default_platform" time="0.000282">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="01: import_from_git" time="2.725495">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="02: default_platform" time="0.000261">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="03: Switch to ios yk_component_release_fmk lane" time="0.000203">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="04: git_pull" time="3.271931">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="05: version_bump_podspec" time="0.001132">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="06: yk_pod_install" time="4.199753">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="07: yk_pod_lib_lint" time="33.434471">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="08: yk_build_framework" time="56.726163">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="09: yk_git_commit_all" time="0.635963">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="10: add_git_tag" time="0.019149">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="11: push_to_git_remote" time="9.304397">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="12: yk_pod_push" time="20.478758">
+        
+      </testcase>
+    
+      
+      <testcase classname="fastlane.lanes" name="13: yk_pod_repo_update" time="1.825747">
+        
+      </testcase>
+    
+  </testsuite>
+</testsuites>

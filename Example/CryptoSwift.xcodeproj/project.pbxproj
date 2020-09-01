@@ -17,7 +17,7 @@
 
 /* Begin PBXFileReference section */
 		2B4D7B8BAB30E490797CD8E9 /* Pods_CryptoSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4544A6D29C9EFB81469144DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4544A6D29C9EFB81469144DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CryptoSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -25,13 +25,13 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6F169E16FE384A20674778B3 /* Fastfile */ = {isa = PBXFileReference; includeInIndex = 1; name = Fastfile; path = ../fastlane/Fastfile; sourceTree = "<group>"; };
+		6F169E16FE384A20674778B3 /* Fastfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Fastfile; path = ../fastlane/Fastfile; sourceTree = "<group>"; };
 		BC3A96AC2CA9730A2FF3F38B /* Pods-CryptoSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-CryptoSwift_Example/Pods-CryptoSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C5CC774EA02A47DC0EA4C8C2 /* CryptoSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CryptoSwift.podspec; path = ../fmk/CryptoSwift.podspec; sourceTree = "<group>"; };
-		DA64896272D9B8F9E8FF3C7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C5CC774EA02A47DC0EA4C8C2 /* CryptoSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CryptoSwift.podspec; path = ../fmk/CryptoSwift.podspec; sourceTree = "<group>"; };
+		DA64896272D9B8F9E8FF3C7D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E44B307BA2D7FE346D5EB1A7 /* Pods-CryptoSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-CryptoSwift_Example/Pods-CryptoSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F5BED5F5D0DB61F695767461 /* CryptoSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CryptoSwift.podspec; path = ../CryptoSwift.podspec; sourceTree = "<group>"; };
-		FAAFA3B7B52AD0072845C391 /* CryptoSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CryptoSwift.podspec; path = ../lib/CryptoSwift.podspec; sourceTree = "<group>"; };
+		F5BED5F5D0DB61F695767461 /* CryptoSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CryptoSwift.podspec; path = ../CryptoSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FAAFA3B7B52AD0072845C391 /* CryptoSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CryptoSwift.podspec; path = ../lib/CryptoSwift.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,6 @@
 				BC3A96AC2CA9730A2FF3F38B /* Pods-CryptoSwift_Example.debug.xcconfig */,
 				E44B307BA2D7FE346D5EB1A7 /* Pods-CryptoSwift_Example.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
